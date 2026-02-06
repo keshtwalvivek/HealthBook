@@ -17,12 +17,12 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between text-sm pt-2 pb-0 border-b border-b-gray-400">
-      <div className="w-28 h-28 overflow-hidden">
+      <div className="w-24 h-24 overflow-hidden">
         <img
           onClick={() => navigate("/")}
           src={assets.logo || "/fallback-logo.png"}
           alt="Logo"
-          className="w-full h-full object-cover object-center cursor-pointer"
+          className="w-full h-full object-contain object-center cursor-pointer"
         />
       </div>
 

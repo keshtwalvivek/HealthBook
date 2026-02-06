@@ -74,7 +74,7 @@ const Navbar = () => {
         {location.pathname === "/" && (
           <button
             onClick={() =>
-              window.open("https://appointy-six.vercel.app", "_blank")
+              window.open("https://HealthBook-six.vercel.app", "_blank")
             }
             className="bg-primary text-white text-xs px-4 py-2 rounded-full hover:bg-gray-700 hidden md:block"
           >
